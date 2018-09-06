@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		9F1F8A2821419CF300553CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F8A2721419CF300553CE0 /* AppDelegate.swift */; };
-		9F1F8A2A21419CF300553CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F8A2921419CF300553CE0 /* ViewController.swift */; };
 		9F1F8A2D21419CF300553CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F8A2B21419CF300553CE0 /* Main.storyboard */; };
 		9F1F8A2F21419CF400553CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F8A2E21419CF400553CE0 /* Assets.xcassets */; };
 		9F1F8A3221419CF400553CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1F8A3021419CF400553CE0 /* LaunchScreen.storyboard */; };
+		9F1F8A3C2141A57400553CE0 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F8A3B2141A57400553CE0 /* QuestionsViewController.swift */; };
+		9F1F8A3E2141A59900553CE0 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F8A3D2141A59900553CE0 /* ResultsViewController.swift */; };
+		9F1F8A402141A60400553CE0 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1F8A3F2141A60400553CE0 /* IntroductionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F1F8A2421419CF300553CE0 /* Questionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questionnaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1F8A2721419CF300553CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F1F8A2921419CF300553CE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F1F8A2C21419CF300553CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F1F8A2E21419CF400553CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1F8A3121419CF400553CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F1F8A3321419CF400553CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1F8A3B2141A57400553CE0 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		9F1F8A3D2141A59900553CE0 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		9F1F8A3F2141A60400553CE0 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				9F1F8A2721419CF300553CE0 /* AppDelegate.swift */,
-				9F1F8A2921419CF300553CE0 /* ViewController.swift */,
 				9F1F8A2B21419CF300553CE0 /* Main.storyboard */,
+				9F1F8A3F2141A60400553CE0 /* IntroductionViewController.swift */,
+				9F1F8A3D2141A59900553CE0 /* ResultsViewController.swift */,
+				9F1F8A3B2141A57400553CE0 /* QuestionsViewController.swift */,
 				9F1F8A2E21419CF400553CE0 /* Assets.xcassets */,
 				9F1F8A3021419CF400553CE0 /* LaunchScreen.storyboard */,
 				9F1F8A3321419CF400553CE0 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F1F8A2A21419CF300553CE0 /* ViewController.swift in Sources */,
+				9F1F8A402141A60400553CE0 /* IntroductionViewController.swift in Sources */,
 				9F1F8A2821419CF300553CE0 /* AppDelegate.swift in Sources */,
+				9F1F8A3C2141A57400553CE0 /* QuestionsViewController.swift in Sources */,
+				9F1F8A3E2141A59900553CE0 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
